@@ -67,3 +67,6 @@ join authors a on (a.au_id=ta.au_id) order by city
 select stor_name, ord_date from 
 stores s join sales sa on s.stor_id= sa.stor_id
 order by ord_date desc
+
+--change in git file
+select fname from employee 
